@@ -25,6 +25,6 @@ public class LightingClient {
         chandelier.hang();
         wallLamp.mount();
         floorLamp.place();
-        System.out.println("");
+        System.out.println();
     }
 }

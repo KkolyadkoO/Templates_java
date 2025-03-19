@@ -2,7 +2,7 @@ package com.lab3.task2;
 
 public class Document {
 
-    public String header;
+    public String article;
     public String creator;
     public String content;
     public void createDocument() {
@@ -10,6 +10,6 @@ public class Document {
     }
 
     public String toString() {
-        return "Header: "+header+" Creator: "+creator+" Content: "+content;
+        return "Article: "+article+", Creator: "+creator+", Content: "+content;
     }
 }
