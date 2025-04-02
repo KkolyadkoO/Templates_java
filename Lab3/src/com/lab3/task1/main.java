@@ -6,7 +6,6 @@ public class main {
                 .setDifficulty("Hard")
                 .addObstacle("Spikes")
                 .addObstacle("Lava");
-        levelB.reset();
         var level = levelB.addMonster("Dragon")
                 .addMonster("Goblin")
                 .build();
