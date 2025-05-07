@@ -8,8 +8,8 @@ public class TextFileFacadeDemo {
         String filePath = "example.txt";
 
         try {
-            fileFacade.writeFile(filePath, "Привет, мир!\nЭто тестовая строка.");
-            System.out.println("Файл успешно записан");
+//            fileFacade.writeFile(filePath, "Привет, мир!\nЭто тестовая строка.");
+//            System.out.println("Файл успешно записан");
 
             String content = fileFacade.readFile(filePath);
             System.out.println("Содержимое файла:\n" + content);
@@ -21,9 +21,9 @@ public class TextFileFacadeDemo {
                 System.out.println("Файл существует");
             }
 
-            if (fileFacade.deleteFile(filePath)) {
-                System.out.println("Файл успешно удален");
-            }
+//            if (fileFacade.deleteFile(filePath)) {
+//                System.out.println("Файл успешно удален");
+//            }
 
         } catch (IOException e) {
             System.err.println("Ошибка при работе с файлом: " + e.getMessage());
